@@ -35,7 +35,7 @@ import Detalhes from '../Detalhes';
         animationType="slide"
         visible={visibleModal}
       >
-      <Detalhes />
+      <Detalhes filme={data} voltar={ () => setVisibleModal(false)} />
       </Modal>
 
     </View>
